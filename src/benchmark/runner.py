@@ -1,6 +1,10 @@
+"""
+(Eventually) Runs the Text2SQL Benchmark
+"""
+
 import os
 import ollama
-import psycopg3 as ps
+import psycopg as ps
 from dotenv import load_dotenv
 
 load_dotenv()
